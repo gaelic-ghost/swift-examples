@@ -27,13 +27,13 @@ struct macView: View {
 					// This String here that I pass into the Button is used to generate the Label for it.
 					Button("Show a thing!") {
 						// And this is where we write the code that "does something" if the user presses it. Herre I've just set it up to change a variable that could then cause an Alert to be shown.
-						self.isAlertShowing = true
+						isAlertShowing = true
 					}
 					Button("Do the same thing!") {
-						self.isAlertShowing = true
+						isAlertShowing = true
 					}
 				}
 			}
-		// This is where I could add the .alert modifier to display an alert based on the value of isAlertShowing, but I've not done that here.
+		// This is where I could add a popover or whatever to display an alert based on the value of isAlertShowing, but I've not done that here.
 	}
 }

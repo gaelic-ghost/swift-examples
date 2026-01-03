@@ -21,10 +21,10 @@ struct mobileView: View {
 			.webViewContextMenu { elementLink in
 				Menu("Ctx Menu") {
 					Button("Show a thing!") {
-						self.isAlertShowing = true
+						isAlertShowing = true
 					}
 					Button("Do the same thing!") {
-						self.isAlertShowing = true
+						isAlertShowing = true
 					}
 				}
 			}
